@@ -30,4 +30,4 @@ To run the code, follow the *Getting started* instructions, git clone this repos
 - python navigation.py [arg1] [arg2]
 Where:
 - arg1 is the path to the Unity environment (Banana.app for instance on OSX)
-	- arg1 is 1 for training and 0 for testing
+- arg2 is 1 for training and 0 for testing
