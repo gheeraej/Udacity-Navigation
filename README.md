@@ -27,7 +27,10 @@ The environment is considered solved when an average score of +13 over 100 conse
 
 ## Instructions
 To run the code, follow the *Getting started* instructions, git clone this repository and go to the folder repository. Then just type:
-- python navigation.py [arg1] [arg2]
+- python navigation.py [arg1] [arg2] [arg3] [arg4]
+
 Where:
 - arg1 is the path to the Unity environment (Banana.app for instance on OSX)
 - arg2 is 1 for training and 0 for testing
+- arg3 is the path to the file to save weights (in train) or to load weights (in test)
+- arg4 is the path to the hyperparameters file (defaut to None)
