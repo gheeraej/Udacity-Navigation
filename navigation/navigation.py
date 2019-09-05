@@ -58,7 +58,7 @@ def train_dqn(env, agent, save_or_load_path, n_episodes=2000, eps_start=1.0, eps
 
 
 ### Test the agent
-def test_dqn(env, agent):
+def test_dqn(env, agent, max_t=1000):
     brain_name = env.brain_names[0]
     
     env_info = env.reset(train_mode=False)[brain_name]
