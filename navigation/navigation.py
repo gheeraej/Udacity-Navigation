@@ -122,7 +122,7 @@ if __name__=="__main__":
         print("Argument 2 is mandatory and is 1 for train and 0 for test")
         print("Argument 3 is mandatory and is the path of the file to save weights (in train) or to load weights (in test)")
         pass
-    if len(sys.argv)<5:
+    elif len(sys.argv)<5:
         print("Argument 4 represents the hyper-parameter file (defaut to 'None')")
         launch(sys.argv[1], bool(int(sys.argv[2])), sys.argv[3], None)
     else:
